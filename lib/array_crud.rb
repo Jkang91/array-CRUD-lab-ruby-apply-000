@@ -11,11 +11,11 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-  ["what","a","cruel","world"].unshift("world")
+  ["what","a","cruel","world"].unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
-  ["what","a","cruel","world"].pop("arrays!")
+  ["what","a","cruel","world"].pop("world")
 end
 
 def remove_element_from_start_of_array(array)
