@@ -3,19 +3,19 @@ def create_an_empty_array
 end
 
 def create_an_array
-  [1,2,3,4]
+  x = ["what","a","cruel","world"]
 end
 
 def add_element_to_end_of_array(array, element)
-  [1,2,3,4] << "arrays!"
+  x << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
-  [1,2,3,4].unshift("wow")
+  x.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
-  [1,2,3,4].pop("arrays!")
+  
 end
 
 def remove_element_from_start_of_array(array)
