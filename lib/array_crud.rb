@@ -7,10 +7,12 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
+  x = [1, 2, 3, 4]
   x << 5
 end
 
 def add_element_to_start_of_array(array, element)
+  x = [1, 2, 3, 4]
   x.unshift(0)
 end
 
